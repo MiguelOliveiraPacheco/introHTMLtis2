@@ -1,0 +1,26 @@
+{
+  "name": "introhtmltis2",
+  "version": "1.0.0",
+  "description": "Exemplo de HTML",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelOliveiraPacheco/introHTMLtis2.git"
+  },
+  "author": "Miguel Pacheco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiguelOliveiraPacheco/introHTMLtis2/issues"
+  },
+  "homepage": "https://github.com/MiguelOliveiraPacheco/introHTMLtis2#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
