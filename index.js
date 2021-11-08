@@ -6,7 +6,10 @@ const path = require('path')
 app.use(express.static('./public'))
  
 app.get('/', function (req, res) {
-  response.sendFile(path.join(_dirname, '/public/index.html'))
+  response.sendFile(path.join(_dirname, '/public/navbar.html'))
 })
 
-app.listen(3000)
+const port = 5000;
+app.listen(port, function (){
+  console.log("Listenning on port: " + port)
+})
